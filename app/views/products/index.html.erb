@@ -1,0 +1,8 @@
+
+<%=notice%>
+<%@products.each do |product|%>
+  <%= link_to product_path(product.id), class: 'product'  do %>
+  <h1><%=product.title%></h2>
+  <span><%=product.description%></span>
+<%end%>
+<%end%>

@@ -1,0 +1,11 @@
+<h1><%=@product.title%> </h1>
+
+<h2><%=@product.description%> </h2>
+
+
+<span><%=@product.price%> </span>
+<%= link_to 'Actualizar producto', product_edit_path(@product)%>
+<%= link_to 'Eliminar producto', product_path(@product), data: {
+turbo_method: :delete,
+turbo_confirm: '¿Seguro?'
+}%>
