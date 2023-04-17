@@ -1,0 +1,50 @@
+es:
+  activerecord:
+    models:
+      product: Producto
+    attributes: 
+      product:
+        title: 'titulo'
+        description: 'Descripcion'
+        price: 'Precio'
+        photo: 'Foto'
+  common:
+    back: 'Regresar'
+    confirm: 'seguro'
+  products:
+    edit:
+      title: 'Editar Producto'
+    new:
+      title: 'Añadir Producto'
+    index:
+      title: 'Productos'
+      max_price: 'Precio maximo'
+      min_price: 'Precio_minimo'
+      query_text: 'Buscador'
+    show:
+      action1: 'Actualizar Producto'
+      action2: 'Eiminar Producto '
+      confirm: 'Estas seguro ?'
+    create:
+       created: 'Tu producto se ha creado satisfactoriamente'
+    update:
+        updated: 'Tu producto se actualizo'
+    destroy:
+        deleted: 'Tu producto se quito de la filial'
+  categories:
+    category:
+      edit: 'Edit'
+      delete: 'Delete'
+    index:
+      new: 'Add Category'
+      title: 'Categories'
+    edit:
+      title: 'Edit category'
+    new:
+      title: 'New Category'
+    create:
+      created: 'Se ha creado la categoria correctamente'
+    update:
+      updated: 'Se a actualiza correctamente'
+    destroy:
+      destroyed: 'Se ha eliminado correctamente'
